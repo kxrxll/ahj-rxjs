@@ -5,7 +5,7 @@ export default class Messenger {
   constructor(el) {
     this.el = el;
     this.field = el.querySelector('.messenger_field');
-    this.url = 'http://localhost:7070/messages/unread';
+    this.url = 'https://messages-kxrxll.herokuapp.com/messages/unread';
   }
 
   init() {
