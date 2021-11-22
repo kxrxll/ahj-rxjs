@@ -1,4 +1,4 @@
-import Login from './Login';
+import Messenger from './Messenger';
 
-const authForm = new Login(document.querySelector('.auth'));
-authForm.init();
+const messenger = new Messenger(document.querySelector('.messenger'));
+messenger.init();

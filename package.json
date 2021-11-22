@@ -43,6 +43,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
+    "rxjs": "^7.4.0",
     "core-js": "^3.18.3"
   }
 }
